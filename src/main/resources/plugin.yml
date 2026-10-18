@@ -1,0 +1,20 @@
+name: JalebiTPA
+version: ${project.version}
+main: com.jalebi.tpa.JalebiTpa
+api-version: "1.21"
+author: JalebiSMP
+description: TPA plugin for Jalebi SMP
+commands:
+  tpa:
+    description: Request to teleport to a player
+    usage: /tpa <player>
+  tpahere:
+    description: Request a player to teleport to you
+    usage: /tpahere <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpacancel:
+    description: Deny a teleport request
+    usage: /tpacancel
+    aliases: [tpdeny]
